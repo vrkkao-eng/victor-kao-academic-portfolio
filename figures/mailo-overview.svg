@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">MAILO project overview</title><desc id="desc">Legal and regulatory sources are modelled as an ontology, represented as RDF, queried with SPARQL, and evaluated through competency questions.</desc>
+  <rect width="1200" height="400" fill="#ffffff"/>
+  <style>.n{font-family:Arial,Helvetica,sans-serif;fill:#0f4c81;font-size:15px;font-weight:700;letter-spacing:1.4px}.h{font-family:Arial,Helvetica,sans-serif;fill:#14263d;font-size:22px;font-weight:700}.s{font-family:Arial,Helvetica,sans-serif;fill:#52657a;font-size:17px}.b{fill:#f5f8fb;stroke:#0f4c81;stroke-width:2}.a{stroke:#0f4c81;stroke-width:3}</style>
+  <text x="70" y="62" class="n">MAILO · PUBLIC TECHNICAL EVIDENCE</text><line x1="70" y1="84" x2="1130" y2="84" stroke="#d4dee8" stroke-width="2"/>
+  <rect x="70" y="145" width="205" height="135" rx="3" class="b"/><text x="94" y="190" class="h">Legal &amp; regulatory</text><text x="94" y="218" class="h">sources</text><text x="94" y="251" class="s">domain concepts</text>
+  <rect x="355" y="145" width="205" height="135" rx="3" class="b"/><text x="379" y="190" class="h">Ontology</text><text x="379" y="218" class="h">modelling</text><text x="379" y="251" class="s">explicit semantics</text>
+  <rect x="640" y="145" width="205" height="135" rx="3" class="b"/><text x="664" y="190" class="h">RDF &amp; SPARQL</text><text x="664" y="218" class="h">representation</text><text x="664" y="251" class="s">queryable knowledge</text>
+  <rect x="925" y="145" width="205" height="135" rx="3" class="b"/><text x="949" y="190" class="h">Competency</text><text x="949" y="218" class="h">questions</text><text x="949" y="251" class="s">model assessment</text>
+  <line x1="275" y1="212" x2="340" y2="212" class="a"/><polygon points="355,212 335,201 335,223" fill="#0f4c81"/><line x1="560" y1="212" x2="625" y2="212" class="a"/><polygon points="640,212 620,201 620,223" fill="#0f4c81"/><line x1="845" y1="212" x2="910" y2="212" class="a"/><polygon points="925,212 905,201 905,223" fill="#0f4c81"/>
+  <text x="70" y="344" class="s">Implementation and project-specific documentation are available in the public MAILO repository.</text>
+</svg>

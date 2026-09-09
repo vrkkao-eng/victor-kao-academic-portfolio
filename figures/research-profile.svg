@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Academic research trajectory</title><desc id="desc">A high-level trajectory from law, intellectual property and ICT through digital humanities and knowledge representation to artificial intelligence, speech and language technology.</desc>
+  <rect width="1200" height="360" fill="#ffffff"/>
+  <style>.k{font-family:Arial,Helvetica,sans-serif;fill:#14263d}.s{font-family:Arial,Helvetica,sans-serif;fill:#52657a}.n{font-family:Arial,Helvetica,sans-serif;fill:#0f4c81;font-size:15px;font-weight:700;letter-spacing:1.4px}.h{font-family:Arial,Helvetica,sans-serif;fill:#14263d;font-size:25px;font-weight:700}.b{fill:#f5f8fb;stroke:#0f4c81;stroke-width:2}.line{stroke:#0f4c81;stroke-width:3}</style>
+  <text x="70" y="62" class="n">ACADEMIC TRAJECTORY</text><line x1="70" y1="84" x2="1130" y2="84" stroke="#d4dee8" stroke-width="2"/>
+  <line x1="285" y1="209" x2="915" y2="209" class="line"/><polygon points="930,209 908,198 908,220" fill="#0f4c81"/>
+  <circle cx="190" cy="209" r="11" fill="#0f4c81"/><circle cx="600" cy="209" r="11" fill="#0f4c81"/><circle cx="1010" cy="209" r="11" fill="#0f4c81"/>
+  <rect x="70" y="125" width="240" height="150" rx="3" class="b"/><text x="94" y="165" class="h">Law, IP &amp; ICT</text><text x="94" y="198" class="s" font-size="18">Legal and technological</text><text x="94" y="223" class="s" font-size="18">foundations</text>
+  <rect x="480" y="125" width="240" height="150" rx="3" class="b"/><text x="504" y="165" class="h">Digital Humanities</text><text x="504" y="198" class="s" font-size="18">Knowledge representation</text><text x="504" y="223" class="s" font-size="18">and semantic structure</text>
+  <rect x="890" y="125" width="240" height="150" rx="3" class="b"/><text x="914" y="165" class="h">MSAI · SLT</text><text x="914" y="198" class="s" font-size="18">Current AI academic</text><text x="914" y="223" class="s" font-size="18">development</text>
+  <text x="70" y="326" class="s" font-size="16">A public, high-level profile; no unpublished thesis or proposal details are included.</text>
+</svg>
