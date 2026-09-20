@@ -1,46 +1,101 @@
 # Chang-Hua Kao (Victor)
 
-**Legal knowledge representation · Knowledge graphs · Semantic Web · Reliable AI**
+**Applied AI & Knowledge Engineering · Legal AI · Knowledge Graphs · Reliable AI**
 
-I am interested in how legal and regulatory knowledge can be represented, queried, and used responsibly in computational systems. My academic development brings together law and ICT, digital humanities, knowledge representation, and current study in artificial intelligence, speech and language technology.
+I work at the intersection of **AI engineering, knowledge representation, and complex regulated domains**. My background combines law and ICT, digital humanities, ontology/knowledge-graph engineering, and current study in artificial intelligence (Speech & Language Technology).
 
-This repository is a concise public research portfolio. It presents only material that is public or independently verifiable.
+This public portfolio highlights projects that show how I move from domain requirements to structured knowledge, executable validation, API-backed applications, and user-facing tools.
 
 <p align="center">
   <img src="figures/research-profile.svg" alt="Research trajectory: Law, IP and ICT; Digital Humanities and knowledge representation; Artificial Intelligence, Speech and Language Technology." width="900">
 </p>
 
-## Research interests
+## Featured engineering work
 
-- Legal and regulatory knowledge representation
-- Ontology engineering and knowledge graphs
-- RDF, SPARQL, and Semantic Web technologies
-- Reliable AI for legal and regulatory domains
-- Language-model-assisted semantic understanding
+### 1. [MAILO Legal AI Engine](https://github.com/vrkkao-eng/mailo-legal-ai-engine)
 
-These are research interests, not claims about unpublished results or ongoing work.
+**Python research pipeline · knowledge engineering · validation**
 
-## Featured public work
+A public Python package/CLI extracted from MAILO thesis tooling. It demonstrates an inspectable pipeline for supplied research findings, RDF/JSON-LD export, SPARQL execution, SHACL validation, reproducible reports, automated tests, and GitHub Actions CI.
 
-### [MAILO — Medical AI Legal Ontology](projects/mailo.md)
+**Evidence:** Python 3.11+ · RDFLib · pySHACL · SPARQL · JSON-LD · pytest · GitHub Actions · optional Anthropic tool loop
 
-MAILO is the central technical evidence in this portfolio: a public ontology project concerned with representing the legal and regulatory landscape around medical AI. It demonstrates work with ontology modelling, RDF, SPARQL, and competency-question-driven knowledge representation.
+---
 
-[View the public MAILO repository](https://github.com/vrkkao-eng/Mailo-ontology)
+### 2. [MAILO — Medical AI Legal Ontology](https://github.com/vrkkao-eng/Mailo-ontology)
+
+**Knowledge graph · OWL 2 · SHACL · EU medical-AI regulation**
+
+MAILO is the canonical knowledge-model repository. It represents obligations and legal relationships across EU medical-AI regulation and links executable SHACL constraints to legal sources and CJEU case law.
 
 <p align="center">
   <img src="figures/mailo-overview.svg" alt="MAILO overview: legal and regulatory sources are modelled as an ontology, represented in RDF, queried with SPARQL, and assessed through competency questions." width="900">
 </p>
 
-## Academic trajectory
+---
 
-My background has developed across law, intellectual property and ICT; digital humanities and knowledge representation; and current academic development in artificial intelligence, speech and language technology. This trajectory informs my interest in rigorous, transparent computational approaches to legal and regulatory information.
+### 3. [NomadSpot Taiwan](https://github.com/vrkkao-eng/NomadSpot-Taiwan)
+
+**Backend for Frontend · API integration · web deployment**
+
+A four-person web project for discovering work-friendly cafés in Taiwan. My contribution focused on the application architecture and integration layer: frontend/backend server setup, the Express BFF, and external API integration.
+
+**Evidence:** Node.js · Express · multi-source APIs · OAuth token caching · fallback handling · geospatial data · Vercel
+
+---
+
+### 4. [Venezuela Earthquake Companion Desk](https://github.com/vrkkao-eng/venezuela-earthquake-companion-desk)
+
+**Offline-first decision-support prototype · constrained-system design**
+
+A field-oriented prototype built around low-connectivity constraints. It explores compact building-record encoding, audio data transmission, tactical routing, satellite-pass calculations, and multilingual offline-first interaction.
+
+**Evidence:** JavaScript · A* routing · codec/checksum design · AFSK · SGP4 · offline-first architecture
+
+## Supporting work
+
+- [AI & Data Protection thesis visualisation](https://github.com/vrkkao-eng/IpIct_MANAMA_Thesis_AI_Data_protection) — communicating AI regulation, GDPR and foundation-model issues through an interactive digital format.
+- [Kelsen Authority Visualisation](https://github.com/vrkkao-eng/Kelsen-authority-visualization) — bilingual interactive presentation of a jurisprudence thesis and complex conceptual structures.
+
+## How these projects fit together
+
+```text
+Regulated / complex domain
+          |
+          v
+Knowledge modelling ---------> MAILO Ontology
+          |
+          v
+Executable pipeline ----------> MAILO Legal AI Engine
+          |
+          +-------------------> SHACL / SPARQL / provenance
+          |
+          v
+Application integration ------> NomadSpot Taiwan
+          |
+          v
+Constraint-driven prototyping -> Earthquake Companion Desk
+```
+
+The common theme is **turning complex requirements into inspectable, testable and usable systems**.
+
+## Current direction
+
+I am particularly interested in:
+
+- LLM + knowledge-graph integration and neuro-symbolic systems
+- grounded retrieval and provenance-aware AI
+- explainability and verification for high-stakes domains
+- agentic workflows with explicit validation boundaries
+- applied AI / Forward Deployed Engineering for complex organisations
 
 ## Links
 
-- [MAILO ontology repository](https://github.com/vrkkao-eng/Mailo-ontology)
+- [GitHub profile](https://github.com/vrkkao-eng)
+- [MAILO Legal AI Engine](https://github.com/vrkkao-eng/mailo-legal-ai-engine)
+- [MAILO ontology](https://github.com/vrkkao-eng/Mailo-ontology)
 - [LinkedIn — Victor Chang-Hua Kao](https://www.linkedin.com/in/victor-changhua-kao/)
 
 ---
 
-*For academic applications, this public portfolio should be read alongside the application materials requested by the relevant programme.*
+*The portfolio distinguishes implemented functionality from research interests and future engineering work; individual project READMEs document scope and limitations.*
