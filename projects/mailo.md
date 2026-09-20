@@ -4,30 +4,61 @@
 
 ## Research goal
 
-MAILO explores how legal and regulatory knowledge relevant to medical artificial intelligence can be represented in a structured, machine-readable form. The project situates legal concepts, obligations, actors, and relevant relationships within an ontology intended to support transparent access to regulatory information.
+MAILO investigates how legal and regulatory knowledge relevant to medical artificial intelligence can be represented in a structured, machine-readable form while keeping source material, interpretation, and modelling choices distinguishable.
+
+The project brings together legal doctrine, ontology engineering, RDF/OWL modelling, SPARQL querying, and SHACL validation.
 
 ## Role
 
-Portfolio owner’s contribution: ontology-project development and documentation, as represented by the public MAILO repository. The repository remains the source of record for the precise authorship and implementation history.
+Victor Kao developed the MAILO thesis artifact and maintains the public ontology repository. The public repository remains the source of record for implementation history, releases, encoded legal sources, and validation scope.
 
-## Contribution and technical evidence
+## Research contribution and technical evidence
 
-The public repository is the authoritative record for the project’s implementation and documentation. It provides verifiable evidence of work involving:
+The public repository provides verifiable evidence of work involving:
 
-- Ontology modelling for a legal and regulatory domain
-- RDF-based knowledge representation
-- SPARQL querying
-- Competency questions used to guide and assess the knowledge model
-- Semantic relationships connecting concepts relevant to medical AI regulation
+- ontology modelling for a multi-framework EU legal and regulatory domain;
+- RDF/OWL knowledge representation;
+- SPARQL querying;
+- SHACL constraints for machine-executable validation;
+- legal-source annotation and provenance;
+- explicit separation between court holdings and designer operationalisations; and
+- documented limits on what has and has not been formalised.
 
 ## Why it matters
 
-Legal and regulatory texts contain concepts and relationships that are difficult to use consistently across people, systems, and sources. Ontology engineering and Semantic Web methods offer one way to make these structures explicit, inspectable, and queryable.
+Legal and regulatory texts are not naturally executable specifications. MAILO explores how parts of that information can be made explicit and testable without implying that legal interpretation has been eliminated.
+
+This makes the project relevant to broader research questions about:
+
+- formalisation difficulty and open texture;
+- provenance-aware AI;
+- neuro-symbolic legal-AI systems;
+- human review and expert disagreement; and
+- the role of knowledge graphs in LLM grounding and explanation.
+
+## Companion engine
+
+The application and validation layer is maintained separately in:
+
+[MAILO Legal AI Engine](https://github.com/vrkkao-eng/mailo-legal-ai-engine)
+
+The separation is deliberate:
+
+- **Mailo-ontology** owns the canonical knowledge model and substantive SHACL artefacts.
+- **mailo-legal-ai-engine** owns the Python pipeline, graph export, query execution, validation reports, and tests.
+
+## Related public paper
+
+**Kao, Chang-Hua. “MAILO: An OWL/SHACL Resource for Machine-Executable Conformance Checking of EU Medical-AI Regulatory Obligations.”** SSRN, 17 September 2026.
+
+[SSRN abstract 7476078](https://ssrn.com/abstract=7476078)
 
 ## Scope note
 
-This page describes only the public MAILO project. It does not report unpublished research, unconfirmed thesis topics, or proposed research details.
+MAILO is a research artifact. SHACL conformance does not by itself establish legal correctness or regulatory compliance. The ontology and engine repositories document their own modelling assumptions and validation boundaries.
 
-## Project link
+## Project links
 
-[github.com/vrkkao-eng/Mailo-ontology](https://github.com/vrkkao-eng/Mailo-ontology)
+- [MAILO ontology](https://github.com/vrkkao-eng/Mailo-ontology)
+- [MAILO Legal AI Engine](https://github.com/vrkkao-eng/mailo-legal-ai-engine)
+- [SSRN resource paper](https://ssrn.com/abstract=7476078)
