@@ -24,6 +24,10 @@ The public repository provides verifiable evidence of work involving:
 - explicit separation between court holdings and designer operationalisations; and
 - documented limits on what has and has not been formalised.
 
+**Current public release:** v5.2.3 · 1,946 triples
+
+**Technical evidence:** 65 classes · 82 object/datatype properties · 19 SHACL node shapes · 76 article nodes · 16 cases · persistent w3id namespace: [`https://w3id.org/mailo#`](https://w3id.org/mailo)
+
 ## Why it matters
 
 Legal and regulatory texts are not naturally executable specifications. MAILO explores how parts of that information can be made explicit and testable without implying that legal interpretation has been eliminated.
@@ -44,8 +48,8 @@ The application and validation layer is maintained separately in:
 
 The separation is deliberate:
 
-- **Mailo-ontology** owns the canonical knowledge model and substantive SHACL artefacts.
-- **mailo-legal-ai-engine** owns the Python pipeline, graph export, query execution, validation reports, and tests.
+- **Mailo-ontology** owns the canonical legal knowledge model, source annotations, and SHACL constraints.
+- **mailo-legal-ai-engine** owns the Python/FastAPI workflow, persistence, evaluation, and operator-facing application layer.
 
 ## Related public paper
 
