@@ -8,7 +8,9 @@ This is an academic-facing portfolio of public and independently verifiable work
 
 **Companion presentation site:** [Chang-Hua Kao — Academic Research Portfolio](https://victor-kao-research-portfolio.syrupyowlet8.chatgpt.site)
 
-The presentation site is a concise, public-facing introduction to the same public artifacts. This README remains the canonical portfolio: it carries the fuller project notes, links, technical evidence, and scope statements. <p align="center">
+The presentation site is a concise, public-facing introduction to the same public artifacts. This README remains the canonical portfolio: it carries the fuller project notes, links, technical evidence, and scope statements.
+
+<p align="center">
   <img src="figures/research-profile.svg" alt="High-level academic trajectory from law and ICT through digital humanities and knowledge representation to artificial intelligence and speech and language technology." width="900">
 </p>
 
