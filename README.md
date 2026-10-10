@@ -6,6 +6,10 @@ I work at the intersection of law, knowledge representation, and artificial inte
 
 This is an academic-facing portfolio of public and independently verifiable work. It does not describe unpublished thesis work, unconfirmed research topics, or non-public proposal details.
 
+**Companion presentation site:** [Chang-Hua Kao — Academic Research Portfolio](https://victor-kao-research-portfolio.syrupyowlet8.chatgpt.site)
+
+The presentation site is a concise, visitor-facing introduction to the same public artifacts. This README remains the canonical portfolio: it carries the fuller project notes, links, technical evidence, and scope statements.
+
 <p align="center">
   <img src="figures/research-profile.svg" alt="High-level academic trajectory from law and ICT through digital humanities and knowledge representation to artificial intelligence and speech and language technology." width="900">
 </p>
@@ -68,6 +72,7 @@ The portfolio foregrounds original, public artifacts with documented evidence. I
 
 ## Links
 
+- [Presentation site](https://victor-kao-research-portfolio.syrupyowlet8.chatgpt.site)
 - [GitHub profile](https://github.com/vrkkao-eng)
 - [LinkedIn — Victor Chang-Hua Kao](https://www.linkedin.com/in/victor-changhua-kao/)
 
