@@ -1,160 +1,76 @@
-# Chang-Hua Kao (Victor) — Research Portfolio
+# Chang-Hua Kao (Victor) — Academic Research Portfolio
 
-**Legal AI · Knowledge Representation · Knowledge Graphs · Neuro-Symbolic AI · AI & Law**
+**Legal knowledge representation · Knowledge graphs · Semantic Web · Reliable AI**
 
-My research sits at the intersection of **law, knowledge representation, and artificial intelligence**. I am particularly interested in how legal and regulatory knowledge can be represented in machine-readable form, where formalisation reaches its limits, and how knowledge graphs can be combined with language models while preserving traceability, verification, and meaningful human review.
+I work at the intersection of law, knowledge representation, and artificial intelligence. My interests concern how legal and regulatory knowledge can be represented, queried, validated, and used responsibly in computational systems.
 
-This repository is the **academic-facing** counterpart to my engineering-oriented GitHub profile. It highlights research questions, public research artifacts, methods, and academic development rather than general software-project breadth.
+This is an academic-facing portfolio of public and independently verifiable work. It does not describe unpublished thesis work, unconfirmed research topics, or non-public proposal details.
 
-## Research profile
+<p align="center">
+  <img src="figures/research-profile.svg" alt="High-level academic trajectory from law and ICT through digital humanities and knowledge representation to artificial intelligence and speech and language technology." width="900">
+</p>
 
-My current research interests include:
+## Research interests
 
-- **Legal knowledge representation** using RDF, OWL, SHACL, and SPARQL
-- **Knowledge graph + LLM integration** and neuro-symbolic approaches
-- **Explainability and verification** for AI-supported legal reasoning
-- **Open texture / interpretive openness** as a boundary condition for legal formalisation
-- **Machine-executable regulatory constraints** and provenance
-- **AI governance and EU digital regulation**, including data protection and medical AI
-- **Human-centred evaluation** of explanations, verification behaviour, metacognition, and cognitive load
+- Legal and regulatory knowledge representation
+- Ontology engineering, RDF, OWL, SHACL, and SPARQL
+- Knowledge graphs and semantic systems
+- Reliable AI for legal and regulatory domains
+- Language-model-assisted semantic understanding
+- Provenance, validation boundaries, and meaningful human review
 
-## Current research direction
-
-My current Master of Artificial Intelligence research direction investigates how structured legal knowledge can support language-model systems without treating formalisation as a substitute for legal interpretation.
-
-The working agenda has three connected strands:
-
-1. **Knowledge-graph-guided LLM use**  
-   Compare structured grounding with less structured LLM approaches for traceability, verification, and explanation.
-
-2. **Interpretive openness / formalisation difficulty**  
-   Study where legal concepts resist deterministic representation and where human review or expert disagreement should remain explicit.
-
-3. **Human-centred explainability**  
-   Examine whether knowledge-grounded explanations affect users' verification behaviour, metacognition, and cognitive load in an educational setting.
-
-These are ongoing research questions, not claims of completed empirical results.
+These are research interests, not claims about unpublished results or ongoing research findings.
 
 ## Selected public research artifacts
 
-### [MAILO — Medical AI Legal Ontology](https://github.com/vrkkao-eng/Mailo-ontology)
+### [MAILO — Medical AI Legal Ontology](projects/mailo.md)
 
-MAILO is an OWL/SHACL knowledge graph for EU medical-AI regulation. It represents legal sources, obligations, regulatory relationships, and selected case-law principles in a machine-readable form while distinguishing source material from modelling and operationalisation choices.
+MAILO is the principal knowledge-representation artifact in this portfolio: an OWL 2 / RDF model of EU regulatory obligations bearing on medical AI. Its public release includes source annotations, SPARQL-accessible knowledge, and SHACL constraints whose validation boundaries are stated explicitly.
 
-**Research methods and technologies:** OWL 2 · RDF · SHACL · SPARQL · ontology engineering · legal doctrinal analysis · provenance-aware modelling
+**Public evidence:** canonical ontology, 1,946 triples, 65 classes, 82 object/datatype properties, 19 SHACL node shapes, legal-source provenance, persistent namespace, release history, and documentation.
 
-[Project note](projects/mailo.md)
+[Repository](https://github.com/vrkkao-eng/Mailo-ontology) · [Documentation](https://vrkkao-eng.github.io/Mailo-ontology/index-en.html) · [SSRN resource paper](https://ssrn.com/abstract=7476078)
 
-### [MAILO Legal AI Engine](https://github.com/vrkkao-eng/mailo-legal-ai-engine)
+<p align="center">
+  <img src="figures/mailo-overview.svg" alt="MAILO overview from legal and regulatory sources through ontology modelling and RDF/SPARQL representation to competency questions and validation." width="900">
+</p>
 
-A companion Python research prototype separated from the ontology repository. It provides an inspectable application layer for structured findings, RDF/JSON-LD export, SPARQL execution, SHACL validation, reproducible reports, and testing.
+### [MAILO Legal AI Engine](projects/mailo-legal-ai-engine.md)
 
-For academic purposes, the engine serves as an **experimental and reproducibility layer** rather than as a claim of automated legal compliance.
+A companion Python/FastAPI engineering prototype that connects reviewed regulatory-change data to traceable obligation, control, evidence, human-review, and audit workflows. It keeps the canonical legal ontology separate from application state and avoids treating automated workflow outputs as autonomous legal conclusions.
 
-**Methods and technologies:** Python · RDFLib · pySHACL · SPARQL · JSON-LD · pytest · GitHub Actions
+**Public evidence:** typed APIs, deterministic workflow logic, transactional persistence, idempotency, validation and graph export, reproducible tests, CI, and documented operational boundaries.
 
-### SSRN research resource
+[Repository](https://github.com/vrkkao-eng/mailo-legal-ai-engine)
 
-**“MAILO: An OWL/SHACL Resource for Machine-Executable Conformance Checking of EU Medical-AI Regulatory Obligations.”**  
-SSRN, 17 September 2026.  
-[SSRN abstract 7476078](https://ssrn.com/abstract=7476078)
+### [Adaptive KG Reasoning](projects/adaptive-kg-reasoning.md)
 
-This paper documents MAILO as a research resource and explains its use of OWL/SHACL for machine-executable regulatory constraints.
+A research prototype investigating incremental reasoning over dynamic knowledge-graph windows. It compares materialisation and query-time derivation strategies while making correctness, benchmark conditions, cost accounting, and recovery limitations inspectable.
 
-### [AI & Data Protection — Advanced Master thesis visualisation](https://github.com/vrkkao-eng/IpIct_MANAMA_Thesis_AI_Data_protection)
+**Public evidence:** OWL-RL baseline, deterministic fixtures, regression tests, reproducible benchmark outputs, manifests, and bounded service/recovery experiments.
 
-Interactive presentation of research on foundation models, generative AI, data protection, and the EU regulatory framework.
+[Repository](https://github.com/vrkkao-eng/adaptive-kg-reasoning)
 
-### [Kelsen — Authority visualisation](https://github.com/vrkkao-eng/Kelsen-authority-visualization)
+## Earlier legal research
 
-Bilingual interactive visualisation based on earlier jurisprudential research on Hans Kelsen's concept of authority. It reflects the legal-theory foundation that informs my later work on formalisation and legal knowledge representation.
+- [Regulation of Foundational Models and Generative AI: Fundamental Right to Data Protection](https://github.com/vrkkao-eng/IpIct_MANAMA_Thesis_AI_Data_protection) — public interactive visualisation of a KU Leuven Advanced Master thesis in IP & ICT Law.
+- [On Kelsen's Concept of Authority](https://github.com/vrkkao-eng/Kelsen-authority-visualization) — public bilingual visualisation of earlier jurisprudential research on legal authority.
 
-## Research questions connecting the portfolio
-
-A recurring question across these projects is:
-
-> **What should be made machine-readable, what can be made machine-executable, and what should remain explicitly open to interpretation and human judgment?**
-
-This leads to several linked research problems:
-
-- How should legal holdings be separated from engineering operationalisations?
-- How can a system expose provenance and validation boundaries rather than collapse them into a single “compliance” answer?
-- When does a knowledge graph improve an LLM's grounding or explainability?
-- Can interpretive openness or formalisation difficulty be detected or represented in ways that meaningfully guide human review?
-- How should empirical user studies evaluate explanation quality beyond simple answer accuracy?
-
-## Methodological toolkit
-
-### Legal and regulatory analysis
-- EU digital and data regulation
-- data protection and AI governance
-- medical-AI regulation
-- doctrinal case-law analysis
-- distinction between legal source, interpretation, and system operationalisation
-
-### Knowledge representation
-- RDF / OWL
-- SHACL
-- SPARQL
-- ontology engineering
-- competency questions
-- provenance and traceability
-
-### Computational methods
-- Python
-- RDFLib / pySHACL
-- structured graph export
-- validation pipelines
-- LLM-assisted research workflows
-- reproducible testing and documentation
-
-### Human-centred evaluation
-- qualitative study design
-- explanation and verification behaviour
-- metacognition
-- cognitive load
-- educational framing
+These works provide legal-theoretical and regulatory foundations; they are not presented as knowledge-graph or NLP projects.
 
 ## Academic trajectory
 
-My academic development combines four complementary layers:
+My background spans law, intellectual property and ICT, digital humanities and knowledge representation, and current academic development in artificial intelligence, speech and language technology. This trajectory informs an interest in rigorous and transparent computational approaches to complex legal and regulatory information.
 
-- **Philosophy** — conceptual analysis and legal philosophy
-- **LL.M. / legal research** — jurisprudence and legal authority
-- **Advanced Master in IP & ICT Law, KU Leuven** — data protection, AI regulation, copyright, telecom, competition, and digital regulation
-- **Master of Digital Humanities, KU Leuven** — semantic technologies, knowledge graphs, and the MAILO thesis artifact
-- **Master of Artificial Intelligence, KU Leuven (Speech & Language Technology)** — current work on KG–LLM integration, explainability, and human-centred evaluation
+## Portfolio boundaries
 
-## Research-to-engineering boundary
-
-The research portfolio intentionally distinguishes between:
-
-**Legal / research layer**  
-sources → interpretation → ontology → explicit constraints → research questions
-
-and
-
-**Engineering layer**  
-Python pipeline → graph export → query execution → validation → testing
-
-This separation is important to the research agenda: executable constraints can support analysis and verification, but they do not eliminate legal interpretation.
-
-## For industry-oriented reviewers
-
-My engineering and applied-AI projects are presented separately on my main GitHub profile:
-
-**[github.com/vrkkao-eng](https://github.com/vrkkao-eng)**
-
-That profile foregrounds AI engineering, API integration, deployment-oriented work, and applied system building.
+The portfolio foregrounds original, public artifacts with documented evidence. It intentionally does not treat learning repositories, third-party source mirrors, general software projects, or unpublished coursework as academic research outputs.
 
 ## Links
 
-- [MAILO ontology](https://github.com/vrkkao-eng/Mailo-ontology)
-- [MAILO Legal AI Engine](https://github.com/vrkkao-eng/mailo-legal-ai-engine)
-- [SSRN — MAILO resource paper](https://ssrn.com/abstract=7476078)
-- [Main GitHub profile](https://github.com/vrkkao-eng)
-- [LinkedIn](https://www.linkedin.com/in/victor-changhua-kao/)
+- [GitHub profile](https://github.com/vrkkao-eng)
+- [LinkedIn — Victor Chang-Hua Kao](https://www.linkedin.com/in/victor-changhua-kao/)
 
 ---
 
-*Ongoing research directions are labelled as such. Public repositories and papers are the source of record for implemented artifacts and published claims.*
+*Public repositories and publications are the source of record for implemented artifacts, claims, and limitations.*
